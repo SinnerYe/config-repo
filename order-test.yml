@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: order
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://127.0.0.1:3306/springcloud_sell?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC&allowMultiQueries=true&autoReconnect=true&failOverReadOnly=false&useSSL=false
+  jpa:
+    database: mysql
+    show-sql: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+env:
+  test2
+girl:
+  name: lili
+  age: 18
