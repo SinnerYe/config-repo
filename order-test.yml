@@ -16,5 +16,5 @@ eureka:
 env:
   test2
 girl:
-  name: lili
-  age: 17
+  name: liming
+  age: 20
